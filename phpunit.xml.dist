@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="test/bootstrap.php" colors="true" verbose="true" syntaxCheck="true" strict="true">
+    <testsuites>
+        <testsuite name="php-bracket_tree Test Suite">
+            <directory>test/</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">lib/</directory>
+        </whitelist>
+    </filter>
+</phpunit>
