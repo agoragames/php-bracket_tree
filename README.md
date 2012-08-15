@@ -1,4 +1,4 @@
-# BracketTree - PHP
+# BracketTree - PHP[![Build Status](https://secure.travis-ci.org/agoragames/php-bracket_tree.png)](http://travis-ci.org/agoragames/php-bracket_tree) 
 
 BracketTree is a Tree-based bracketing system designed to aid in the creation and 
 representation of tournament brackets.  It uses a binary tree under the hood to
