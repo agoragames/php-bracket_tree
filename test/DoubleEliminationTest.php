@@ -1,7 +1,5 @@
 <?php
 
-require_once 'BracketTree.php';
-
 class DoubleEliminationTest extends PHPUnit_Framework_TestCase {
   public function testBySizeCreatesBracket() {
     $bracket = BracketTree_DoubleElimination::by_size(4);
@@ -12,5 +10,6 @@ class DoubleEliminationTest extends PHPUnit_Framework_TestCase {
     $bracket = BracketTree_DoubleElimination::by_size(4);
     $this->assertEquals(13, $bracket->size);
   }
+
 }
 ?>

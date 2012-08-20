@@ -124,18 +124,41 @@ class BracketTest extends PHPUnit_Framework_TestCase {
    
   public function testDepthIsZeroWhenEmpty() {
     $empty_bracket = new BracketTree_Bracket();
-    $this->assertEquals(0, $empty_bracket->depth);
+    $this->assertEquals(0, $empty_bracket->depth['total']);
+    $this->assertEquals(0, $empty_bracket->depth['left']);
+    $this->assertEquals(0, $empty_bracket->depth['right']);
   }
 
   public function testDepthIsIncreasedByEachTierAdded() {
-    $this->assertEquals(2, $this->bracket->depth);
+    $this->assertEquals(2, $this->bracket->depth['total']);
+    $this->assertEquals(2, $this->bracket->depth['left']);
+    $this->assertEquals(2, $this->bracket->depth['right']);
   }
 
   public function testAddIncreasesDepthWhenDeeper() {
     $bracket = new BracketTree_Bracket();
     $bracket->add(1, array('name' => 'Foo'));
 
-    $this->assertEquals(1, $bracket->depth);
+    $this->assertEquals(1, $bracket->depth['total']);
+  }
+
+  public function testAddIncreasesLeftDepth() {
+    $bracket = new BracketTree_Bracket();
+
+    $bracket->add(2, array());
+    $bracket->add(1, array());
+
+    $this->assertEquals(2, $bracket->depth['left']);
+    $this->assertEquals(1, $bracket->depth['right']);
+  }
+
+  public function testAddIncreasesRightDepth() {
+    $bracket = new BracketTree_Bracket();
+    $bracket->add(2, array());
+    $bracket->add(3, array());
+
+    $this->assertEquals(2, $bracket->depth['right']);
+    $this->assertEquals(1, $bracket->depth['left']);
   }
 
   public function testAddIncreasesSize() {
