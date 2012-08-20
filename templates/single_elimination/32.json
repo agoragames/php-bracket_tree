@@ -1,0 +1,351 @@
+{
+  "matches": [
+    {
+      "seats": [
+        1,
+        3
+      ],
+      "winner_to": 2,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        5,
+        7
+      ],
+      "winner_to": 6,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        9,
+        11
+      ],
+      "winner_to": 10,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        13,
+        15
+      ],
+      "winner_to": 14,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        17,
+        19
+      ],
+      "winner_to": 18,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        21,
+        23
+      ],
+      "winner_to": 22,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        25,
+        27
+      ],
+      "winner_to": 26,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        29,
+        31
+      ],
+      "winner_to": 30,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        33,
+        35
+      ],
+      "winner_to": 34,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        37,
+        39
+      ],
+      "winner_to": 38,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        41,
+        43
+      ],
+      "winner_to": 42,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        45,
+        47
+      ],
+      "winner_to": 46,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        49,
+        51
+      ],
+      "winner_to": 50,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        53,
+        55
+      ],
+      "winner_to": 54,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        57,
+        59
+      ],
+      "winner_to": 58,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        61,
+        63
+      ],
+      "winner_to": 62,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        2,
+        6
+      ],
+      "winner_to": 4,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        10,
+        14
+      ],
+      "winner_to": 12,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        18,
+        22
+      ],
+      "winner_to": 20,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        26,
+        30
+      ],
+      "winner_to": 28,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        34,
+        38
+      ],
+      "winner_to": 36,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        42,
+        46
+      ],
+      "winner_to": 44,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        50,
+        54
+      ],
+      "winner_to": 52,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        58,
+        62
+      ],
+      "winner_to": 60,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        4,
+        12
+      ],
+      "winner_to": 8,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        20,
+        28
+      ],
+      "winner_to": 24,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        36,
+        44
+      ],
+      "winner_to": 40,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        52,
+        60
+      ],
+      "winner_to": 56,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        8,
+        24
+      ],
+      "winner_to": 16,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        40,
+        56
+      ],
+      "winner_to": 48,
+      "loser_to": null
+    },
+    {
+      "seats": [
+        16,
+        48
+      ],
+      "winner_to": null,
+      "loser_to": null
+    }
+  ],
+  "seats": [
+    { "position": 32 },
+    { "position": 16 },
+    { "position": 48 },
+    { "position": 8 },
+    { "position": 24 },
+    { "position": 40 },
+    { "position": 56 },
+    { "position": 4 },
+    { "position": 12 },
+    { "position": 20 },
+    { "position": 28 },
+    { "position": 36 },
+    { "position": 44 },
+    { "position": 52 },
+    { "position": 60 },
+    { "position": 2 },
+    { "position": 6 },
+    { "position": 10 },
+    { "position": 14 },
+    { "position": 18 },
+    { "position": 22 },
+    { "position": 26 },
+    { "position": 30 },
+    { "position": 34 },
+    { "position": 38 },
+    { "position": 42 },
+    { "position": 46 },
+    { "position": 50 },
+    { "position": 54 },
+    { "position": 58 },
+    { "position": 62 },
+    { "position": 1 },
+    { "position": 3 },
+    { "position": 5 },
+    { "position": 7 },
+    { "position": 9 },
+    { "position": 11 },
+    { "position": 13 },
+    { "position": 15 },
+    { "position": 17 },
+    { "position": 19 },
+    { "position": 21 },
+    { "position": 23 },
+    { "position": 25 },
+    { "position": 27 },
+    { "position": 29 },
+    { "position": 31 },
+    { "position": 33 },
+    { "position": 35 },
+    { "position": 37 },
+    { "position": 39 },
+    { "position": 41 },
+    { "position": 43 },
+    { "position": 45 },
+    { "position": 47 },
+    { "position": 49 },
+    { "position": 51 },
+    { "position": 53 },
+    { "position": 55 },
+    { "position": 57 },
+    { "position": 59 },
+    { "position": 61 },
+    { "position": 63 }
+  ],
+  "starting_seats": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    31,
+    33,
+    35,
+    37,
+    39,
+    41,
+    43,
+    45,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61,
+    63
+  ]
+}

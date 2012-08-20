@@ -16,6 +16,11 @@
    * Node contains the custom payload and binary tree pointers.  Uses left and
    * right properties for tree traversal and positioning.
    */
+
+  require_once 'CustomBracket.php';
+  require_once 'DoubleElimination.php';
+  require_once 'SingleElimination.php';
+
   class BracketTree_Node {
     public $left, $right, $payload, $position;
 
