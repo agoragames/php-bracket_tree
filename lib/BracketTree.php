@@ -6,7 +6,7 @@
    *
    * @package BracketTree
    * @author Andrew Nordman <anordman@majorleaguegaming.com>
-   * @copyright Andrew Nordman 2012
+   * @copyright Andrew Nordman 2012-2013
    * @link http://github.com/agoragames/php-bracket_tree
    */
   require_once 'PositionalRelation.php';
