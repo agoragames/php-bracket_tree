@@ -6,7 +6,7 @@
    *
    * @package BracketTree
    * @author Andrew Nordman <anordman@majorleaguegaming.com>
-   * @copyright Andrew Nordman 2012-2013
+   * @copyright Andrew Nordman 2012-2014
    * @link http://github.com/agoragames/php-bracket_tree
    */
   require_once 'PositionalRelation.php';
@@ -31,7 +31,7 @@
   }
 
   /**
-   * The primary Bracket class. 
+   * The primary Bracket class.
    */
   class BracketTree_Bracket {
     public $_root, $depth, $size;
@@ -48,7 +48,7 @@
       }
     }
 
-    /** 
+    /**
      * Adds the node to the tree on the given tree
      *
      * @param BracketTree_Node $position node position that guides the tree.
@@ -125,7 +125,7 @@
      *  Iterates across the tree in sequential order. For hierarchical traversal,
      *  see `top_down($iterator)`.
      *
-     *  @param BracketTree_Node $node Node to be treated as root. If not passed, 
+     *  @param BracketTree_Node $node Node to be treated as root. If not passed,
      *    this value becomes $this->_root;
      *  @param callback $iterator the lambda executed at each node point
      *  @return bool
@@ -216,7 +216,7 @@
           } else {
             break;
           }
-          
+
         } else if ($position > $current->position) {
           if ($current->right != NULL) {
             $current = $current->right;
